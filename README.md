@@ -8,7 +8,7 @@ Statistic source can be found [here](https://www.worldometers.info/coronavirus/)
 
 ## Installation
 ```
-npm i cronovirus -g 
+npm i coronavirus-stats -g 
 ```
 
 ## Usage
