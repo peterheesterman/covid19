@@ -6,6 +6,11 @@ Check [covid-19](https://www.who.int/emergencies/diseases/novel-coronavirus-2019
 Statistic source can be found [here](https://www.worldometers.info/coronavirus/).
 
 
+## Installation
+```
+npm i cronovirus -g 
+```
+
 ## Usage
 ```
 covid check
