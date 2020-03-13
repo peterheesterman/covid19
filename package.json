@@ -1,0 +1,38 @@
+{
+  "name": "cronovirus",
+  "version": "0.0.1",
+  "description": "Check covid-19 stats in terminal",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/peterheesterman/covid19.git"
+  },
+  "keywords": [
+    "Terminal",
+    "Virus",
+    "COVID19",
+    "Cronovirus"
+  ],
+  "bin": {
+    "cronovirus": "./bin/covid19",
+    "covid": "./bin/covid19"
+  },
+  "author": "Peter Heesterman <heesterman.peter@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node-fetch": "2.5.5",
+    "node-fetch": "2.6.0",
+    "node-html-parser": "1.2.12",
+    "yargs": "15.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "25.1.4",
+    "@types/node": "13.9.0",
+    "@types/yargs": "15.0.4",
+    "typescript": "3.8.3"
+  }
+}
