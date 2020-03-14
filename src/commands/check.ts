@@ -27,20 +27,21 @@ const countriesList = [
   'Denmark',
   'Netherlands',
   'UK',
-  'Austria',
   'Belgium',
+  'Austria',
   'Qatar',
   'Bahrain',
   'Singapore',
   'Australia',
   'Canada',
   'Malaysia',
-  'Hong',
   'Greece',
-  // 'Iceland',
-  'Czechia',
   'Finland',
-  'Israel'
+  'Israel',
+  'Czechia',
+  'Hong',
+  // 'Iceland',
+  'New Zealand'
 ]
 
 function makeLinkRegex (countryName: string): RegExp {
