@@ -19,8 +19,8 @@
     "Cronovirus"
   ],
   "bin": {
-    "coronavirus": "./bin/covid19",
-    "covid": "./bin/covid19"
+    "coronavirus": "./bin/covid",
+    "covid": "./bin/covid"
   },
   "author": "Peter Heesterman <heesterman.peter@gmail.com>",
   "license": "MIT",
