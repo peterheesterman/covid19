@@ -1,6 +1,6 @@
 {
   "name": "coronavirus-stats",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Check covid-19 stats in terminal",
   "main": "dist/index.js",
   "scripts": {
