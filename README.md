@@ -14,7 +14,18 @@ npm i coronavirus-stats -g
 ## Usage
 
 ```bash
-$ covid check
+$ covid summary
+
+=====================================
+Coronavirus Cases | 147,802         |
+=====================================
+Total outcomes    | 78,114 (52.85%) |
+Recovered         | 72,572 (92.91%) |
+Deaths            | 5,542 (7.09%)   |
+=====================================
+
+
+$ covid countries
 
 ==============================================================
 Country    | Total   | New     | Total   | Deaths  | Active  |
@@ -54,3 +65,5 @@ Israel     |     126 |     +17 |         |         |     122 |
  - [ ] Add more countries
  - [ ] Add specific country query
  - [ ] Add snapshots so you can see changes from last check 
+ - [x] Make countries reorder in the list based on total cases
+ - [ ] Automatically get the top 20 countries instead of a preset list

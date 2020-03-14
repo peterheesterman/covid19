@@ -1,10 +1,11 @@
 {
   "name": "coronavirus-stats",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Check covid-19 stats in terminal",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
+    "test": "jest",
     "build": "tsc"
   },
   "repository": {
@@ -33,6 +34,9 @@
     "@types/jest": "25.1.4",
     "@types/node": "13.9.0",
     "@types/yargs": "15.0.4",
+    "fetch-mock-jest": "1.2.3",
+    "jest": "25.1.0",
+    "ts-jest": "25.2.1",
     "typescript": "3.8.3"
   }
 }
