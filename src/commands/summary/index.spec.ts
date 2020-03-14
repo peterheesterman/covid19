@@ -3,7 +3,7 @@ import { processBody } from './'
 import { readFileSync } from 'fs'
 
 test('Summary of the world', async () => {
-  const exampleBody = readFileSync('./data/response.html', 'utf8')
+  const exampleBody = readFileSync('./data/response.data', 'utf8')
 
   const expectedResult = [
     "=====================================",
