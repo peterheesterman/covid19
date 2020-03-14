@@ -52,13 +52,19 @@ function makeRegex (countryName: string): RegExp {
   return new RegExp(`${countryName}.*?<\/tr>`, 'ig')
 }
 
+interface Row { name: string, row: Array<string>}
+
+function totalCases (a: Row,b: Row) {
+  return Number(b.row[0].replace(",", "")) - Number(a.row[0].replace(",",""))
+}
+
 async function check () {
   fetch('https://www.worldometers.info/coronavirus/')
       .then(res => res.text())
       .then(body => {
-        console.log(ruler)
-        console.log(titles)
-        console.log(ruler)
+        console.log(`${ruler}\n${titles}\n${ruler}`)
+
+        const rows: Array<Row> = []
 
         countriesList.forEach(name => {
           let res = body.match(makeRegex(name))
@@ -76,6 +82,12 @@ async function check () {
 
           row.splice(4, 1)
           row.splice(5, 2)
+
+          rows.push({ name, row })
+        })
+
+        rows.sort(totalCases)
+        rows.forEach(({ name, row }) => {
           console.log(`${name.padEnd(11, ' ')}|${row.join(' |')} |`)
         })
 
