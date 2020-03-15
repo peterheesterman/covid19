@@ -42,6 +42,7 @@ const countriesList = [
   'Czechia',
   'Hong Kong',
   // 'Iceland',
+  'Ireland',
   'New Zealand'
 ]
 

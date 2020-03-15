@@ -37,6 +37,7 @@ Country    | Total   | New     | Total   | Deaths  | Active  |
 "Czechia    |     150 |      +9 |         |         |     150 |",
 "Israel     |     143 |         |         |         |     139 |",
 "Hong Kong  |     138 |      +6 |       4 |         |      56 |",
+"Ireland    |      90 |         |       1 |         |      89 |",
 "New Zealand|       6 |         |         |         |       6 |",
 "=============================================================="
 ]
